@@ -1,0 +1,1184 @@
+{
+    "glosarium": [
+        {
+            "word": "Algoritma",
+            "meaning": "Urutan langkah untuk menyelesaikan masalah, seperti resep masakan yang diikuti dari awal sampai selesai."
+        },
+        {
+            "word": "API",
+            "meaning": "Jembatan yang memungkinkan dua program saling meminta dan bertukar data, seperti pelayan restoran yang membawa pesanan ke dapur."
+        },
+        {
+            "word": "Array",
+            "meaning": "Kotak berisi banyak nilai yang disusun berurutan, seperti deretan laci yang masing-masing punya nomor."
+        },
+        {
+            "word": "Argument",
+            "meaning": "Nilai yang dikirim saat memanggil fungsi, seperti bahan yang diberikan kepada mesin agar menghasilkan sesuatu."
+        },
+        {
+            "word": "Asynchronous",
+            "meaning": "Proses yang bisa berjalan sambil menunggu proses lain selesai, seperti memesan makanan lalu melakukan kegiatan lain."
+        },
+        {
+            "word": "Attribute",
+            "meaning": "Informasi tambahan pada elemen HTML, seperti label pada kotak yang menjelaskan isi atau perilakunya."
+        },
+        {
+            "word": "Boolean",
+            "meaning": "Tipe data yang hanya memiliki dua nilai: true atau false, seperti sakelar yang menyala atau mati."
+        },
+        {
+            "word": "Bug",
+            "meaning": "Kesalahan dalam program yang membuat hasilnya tidak sesuai harapan, seperti salah satu roda pada mesin yang macet."
+        },
+        {
+            "word": "Callback",
+            "meaning": "Fungsi yang diberikan kepada fungsi lain untuk dipanggil nanti ketika suatu pekerjaan selesai, seperti meninggalkan nomor telepon untuk dihubungi."
+        },
+        {
+            "word": "Class",
+            "meaning": "Cetak biru untuk membuat banyak objek dengan bentuk dan kemampuan yang mirip, seperti cetakan untuk membuat banyak kue."
+        },
+        {
+            "word": "Closure",
+            "meaning": "Fungsi yang tetap mengingat variabel dari tempat asalnya walaupun tempat itu sudah selesai dijalankan, seperti membawa catatan kecil ke mana pun pergi."
+        },
+        {
+            "word": "Compiler",
+            "meaning": "Program yang menerjemahkan kode sumber menjadi bentuk yang dapat dijalankan komputer, seperti penerjemah bahasa manusia ke bahasa mesin."
+        },
+        {
+            "word": "Conditional",
+            "meaning": "Logika untuk memilih tindakan berdasarkan kondisi, seperti berkata: jika hujan bawa payung, jika tidak lanjut berjalan."
+        },
+        {
+            "word": "Console",
+            "meaning": "Tempat untuk melihat pesan, hasil, atau kesalahan program selama proses pengembangan."
+        },
+        {
+            "word": "Const",
+            "meaning": "Kata kunci JavaScript untuk membuat variabel yang tidak dapat diberi nilai baru setelah dibuat."
+        },
+        {
+            "word": "Constructor",
+            "meaning": "Fungsi khusus yang dijalankan saat objek baru dibuat untuk menyiapkan nilai awalnya."
+        },
+        {
+            "word": "Cookie",
+            "meaning": "Data kecil yang disimpan browser untuk mengingat informasi situs, seperti kartu kecil berisi preferensi pengunjung."
+        },
+        {
+            "word": "CSS",
+            "meaning": "Bahasa untuk mengatur tampilan halaman web, seperti memilih warna cat, ukuran, dan posisi perabot dalam ruangan."
+        },
+        {
+            "word": "Data Type",
+            "meaning": "Jenis nilai yang memberi tahu program apakah sesuatu berupa teks, angka, benar-salah, atau bentuk lain."
+        },
+        {
+            "word": "Debugging",
+            "meaning": "Proses mencari dan memperbaiki kesalahan program, seperti menjadi detektif yang melacak sumber masalah."
+        },
+        {
+            "word": "DOM",
+            "meaning": "Representasi halaman HTML dalam bentuk pohon objek yang dapat dibaca dan diubah JavaScript, seperti peta ruangan yang bisa ditata ulang."
+        },
+        {
+            "word": "Element",
+            "meaning": "Bagian penyusun halaman HTML, misalnya judul, paragraf, tombol, atau gambar."
+        },
+        {
+            "word": "Encapsulation",
+            "meaning": "Cara membungkus data dan fungsi terkait agar tidak mudah diubah dari luar, seperti menyimpan mesin penting di dalam kotak pelindung."
+        },
+        {
+            "word": "Error",
+            "meaning": "Pesan atau kondisi yang menunjukkan program tidak dapat melakukan sesuatu dengan benar."
+        },
+        {
+            "word": "Event",
+            "meaning": "Kejadian yang dapat dideteksi program, seperti pengguna mengeklik tombol, mengetik, atau menggerakkan mouse."
+        },
+        {
+            "word": "Event Listener",
+            "meaning": "Kode yang menunggu kejadian tertentu lalu menjalankan aksi, seperti penjaga pintu yang bereaksi ketika bel berbunyi."
+        },
+        {
+            "word": "Exception",
+            "meaning": "Masalah yang terjadi saat program berjalan dan dapat ditangani agar program tidak langsung berhenti."
+        },
+        {
+            "word": "Export",
+            "meaning": "Cara membagikan fungsi, variabel, atau nilai dari satu file agar dapat digunakan file lain."
+        },
+        {
+            "word": "Expression",
+            "meaning": "Gabungan nilai, variabel, dan operator yang menghasilkan sebuah nilai, seperti hitungan matematika."
+        },
+        {
+            "word": "Fetch",
+            "meaning": "Fungsi JavaScript untuk meminta data dari internet atau server, seperti mengirim kurir mengambil barang."
+        },
+        {
+            "word": "For Loop",
+            "meaning": "Perulangan yang menjalankan kode beberapa kali dengan aturan awal, kondisi, dan perubahan penghitung."
+        },
+        {
+            "word": "Function",
+            "meaning": "Blok kode yang diberi nama dan dapat dipanggil berulang kali, seperti tombol mesin yang menjalankan pekerjaan tertentu."
+        },
+        {
+            "word": "Git",
+            "meaning": "Sistem untuk mencatat perubahan kode, seperti buku sejarah yang menyimpan setiap versi pekerjaan."
+        },
+        {
+            "word": "GitHub",
+            "meaning": "Layanan untuk menyimpan proyek Git secara online dan berkolaborasi dengan orang lain."
+        },
+        {
+            "word": "Hoisting",
+            "meaning": "Perilaku JavaScript yang memproses deklarasi tertentu seolah-olah berada di bagian atas lingkupnya."
+        },
+        {
+            "word": "HTML",
+            "meaning": "Bahasa untuk menyusun struktur halaman web, seperti rangka dan susunan ruangan sebuah rumah."
+        },
+        {
+            "word": "HTTP",
+            "meaning": "Aturan komunikasi antara browser dan server saat meminta atau mengirim data melalui web."
+        },
+        {
+            "word": "If Statement",
+            "meaning": "Perintah yang menjalankan kode hanya ketika suatu kondisi benar."
+        },
+        {
+            "word": "Import",
+            "meaning": "Cara mengambil fungsi, variabel, atau nilai dari file lain agar bisa digunakan."
+        },
+        {
+            "word": "Index",
+            "meaning": "Nomor posisi sebuah nilai dalam array atau daftar; biasanya array JavaScript dimulai dari angka 0."
+        },
+        {
+            "word": "Inheritance",
+            "meaning": "Kemampuan class atau objek untuk mewarisi data dan fungsi dari class lain, seperti anak mewarisi sifat orang tua."
+        },
+        {
+            "word": "Instance",
+            "meaning": "Objek nyata yang dibuat dari sebuah class, seperti kue yang dibuat menggunakan cetakan."
+        },
+        {
+            "word": "Iteration",
+            "meaning": "Satu putaran dalam proses perulangan, seperti satu lap dari lintasan."
+        },
+        {
+            "word": "JavaScript",
+            "meaning": "Bahasa pemrograman yang membuat halaman web dapat merespons tindakan pengguna dan melakukan pekerjaan secara dinamis."
+        },
+        {
+            "word": "JSON",
+            "meaning": "Format teks ringan untuk menyimpan dan bertukar data dengan susunan yang mudah dibaca manusia dan program."
+        },
+        {
+            "word": "Library",
+            "meaning": "Kumpulan kode siap pakai yang membantu menyelesaikan pekerjaan tertentu, seperti kotak peralatan."
+        },
+        {
+            "word": "Loop",
+            "meaning": "Perintah untuk mengulang kode selama kondisi tertentu masih terpenuhi."
+        },
+        {
+            "word": "Map",
+            "meaning": "Method array yang membuat array baru dengan mengubah setiap item menggunakan sebuah fungsi."
+        },
+        {
+            "word": "Method",
+            "meaning": "Fungsi yang menjadi milik objek dan menjelaskan tindakan yang dapat dilakukan objek tersebut."
+        },
+        {
+            "word": "Module",
+            "meaning": "File berisi kode yang dipisahkan agar program lebih rapi, mudah dirawat, dan dapat digunakan kembali."
+        },
+        {
+            "word": "Mutation",
+            "meaning": "Perubahan langsung terhadap isi sebuah objek atau array yang sudah ada."
+        },
+        {
+            "word": "NaN",
+            "meaning": "Singkatan dari Not a Number, yaitu nilai yang muncul ketika hasil operasi seharusnya angka tetapi tidak valid."
+        },
+        {
+            "word": "Node.js",
+            "meaning": "Lingkungan yang memungkinkan JavaScript berjalan di luar browser, misalnya untuk membuat server."
+        },
+        {
+            "word": "npm",
+            "meaning": "Pengelola paket JavaScript yang digunakan untuk memasang dan mengatur library dalam proyek."
+        },
+        {
+            "word": "Null",
+            "meaning": "Nilai khusus yang berarti sengaja tidak ada isi atau belum memiliki objek."
+        },
+        {
+            "word": "Object",
+            "meaning": "Kumpulan data berbentuk pasangan kunci dan nilai, seperti kartu identitas dengan label nama, umur, dan alamat."
+        },
+        {
+            "word": "Operator",
+            "meaning": "Simbol atau kata yang melakukan operasi pada nilai, seperti + untuk menjumlahkan atau === untuk membandingkan."
+        },
+        {
+            "word": "Parameter",
+            "meaning": "Nama tempat untuk menerima nilai di dalam definisi fungsi, seperti slot kosong yang menunggu diisi."
+        },
+        {
+            "word": "Promise",
+            "meaning": "Objek yang mewakili hasil pekerjaan yang belum selesai, seperti tanda terima bahwa pesanan sedang diproses."
+        },
+        {
+            "word": "Property",
+            "meaning": "Data yang dimiliki sebuah objek, seperti warna dan merek yang dimiliki sebuah mobil."
+        },
+        {
+            "word": "Prototype",
+            "meaning": "Objek sumber yang menjadi tempat pewarisan property dan method untuk objek JavaScript lain."
+        },
+        {
+            "word": "Recursion",
+            "meaning": "Teknik ketika sebuah fungsi memanggil dirinya sendiri sampai kondisi berhenti tercapai."
+        },
+        {
+            "word": "Reference",
+            "meaning": "Rujukan ke lokasi data di memori, bukan salinan data itu sendiri."
+        },
+        {
+            "word": "Refactoring",
+            "meaning": "Merapikan struktur kode tanpa mengubah hasil akhirnya, seperti menata ulang kamar agar lebih nyaman."
+        },
+        {
+            "word": "RegEx",
+            "meaning": "Pola khusus untuk mencari, mencocokkan, atau mengganti teks."
+        },
+        {
+            "word": "Scope",
+            "meaning": "Wilayah kode tempat sebuah variabel dapat digunakan, seperti ruangan yang menentukan siapa boleh memakai barang di dalamnya."
+        },
+        {
+            "word": "Server",
+            "meaning": "Komputer atau program yang menerima permintaan dan mengirimkan data atau layanan kepada client."
+        },
+        {
+            "word": "Set",
+            "meaning": "Struktur data yang menyimpan nilai unik sehingga duplikat otomatis tidak dihitung lebih dari sekali."
+        },
+        {
+            "word": "Spread Operator",
+            "meaning": "Tiga titik (...) yang membentangkan isi array atau object ke tempat lain, seperti menuangkan isi kotak ke kotak baru."
+        },
+        {
+            "word": "String",
+            "meaning": "Tipe data untuk menyimpan teks, seperti kata, kalimat, atau alamat email."
+        },
+        {
+            "word": "Syntax",
+            "meaning": "Aturan penulisan kode yang harus diikuti agar komputer dapat memahaminya, seperti tata bahasa dalam kalimat."
+        },
+        {
+            "word": "Template Literal",
+            "meaning": "Cara menulis string menggunakan backtick yang memudahkan penyisipan variabel dan teks beberapa baris."
+        },
+        {
+            "word": "this",
+            "meaning": "Kata kunci yang merujuk pada konteks atau objek yang sedang menjalankan kode."
+        },
+        {
+            "word": "Try...Catch",
+            "meaning": "Struktur untuk mencoba kode dan menangani error jika masalah terjadi, seperti mencoba membuka pintu lalu menyiapkan kunci cadangan."
+        },
+        {
+            "word": "Undefined",
+            "meaning": "Nilai yang berarti sebuah variabel sudah dikenal tetapi belum memiliki nilai."
+        },
+        {
+            "word": "Variable",
+            "meaning": "Nama yang menunjuk ke sebuah nilai dan dapat digunakan atau, pada kondisi tertentu, diubah selama program berjalan."
+        },
+        {
+            "word": "While Loop",
+            "meaning": "Perulangan yang terus berjalan selama kondisi yang diperiksa bernilai true."
+        },
+        {
+            "word": "XMLHttpRequest",
+            "meaning": "API lama pada browser untuk meminta data dari server tanpa memuat ulang seluruh halaman."
+        },
+        {
+            "word": "async/await",
+            "meaning": "Sintaks JavaScript yang membuat kode asynchronous terlihat lebih berurutan dan mudah dibaca."
+        },
+        {
+            "word": "hello",
+            "meaning": "Sapaan sederhana yang sering dipakai sebagai program pertama saat belajar bahasa pemrograman."
+        }
+    ],
+    "kelompok_kata": [
+        {
+            "context": "DOM",
+            "description": "Istilah untuk membaca, memilih, mengubah, dan membuat bagian halaman web.",
+            "words": [
+                {
+                    "word": "document",
+                    "meaning": "document adalah pintu utama untuk mengakses seluruh halaman web."
+                },
+                {
+                    "word": "querySelector",
+                    "meaning": "querySelector memilih satu elemen pertama yang cocok dengan selector CSS."
+                },
+                {
+                    "word": "querySelectorAll",
+                    "meaning": "querySelectorAll memilih semua elemen yang cocok dengan selector CSS."
+                },
+                {
+                    "word": "getElementById",
+                    "meaning": "getElementById mencari satu elemen berdasarkan nilai id."
+                },
+                {
+                    "word": "getElementsByClassName",
+                    "meaning": "getElementsByClassName mencari elemen berdasarkan nama class."
+                },
+                {
+                    "word": "createElement",
+                    "meaning": "createElement membuat elemen HTML baru melalui JavaScript."
+                },
+                {
+                    "word": "appendChild",
+                    "meaning": "appendChild menambahkan elemen sebagai anak dari elemen lain."
+                },
+                {
+                    "word": "removeChild",
+                    "meaning": "removeChild menghapus elemen anak dari parent-nya."
+                },
+                {
+                    "word": "textContent",
+                    "meaning": "textContent membaca atau mengubah teks di dalam elemen."
+                },
+                {
+                    "word": "innerHTML",
+                    "meaning": "innerHTML membaca atau mengubah isi HTML di dalam elemen."
+                },
+                {
+                    "word": "classList",
+                    "meaning": "classList mengelola daftar class pada sebuah elemen."
+                },
+                {
+                    "word": "setAttribute",
+                    "meaning": "setAttribute menambahkan atau mengubah attribute elemen HTML."
+                }
+            ]
+        },
+        {
+            "context": "Event dan Interaksi Pengguna",
+            "description": "Istilah ketika program menunggu tindakan pengguna lalu meresponsnya.",
+            "words": [
+                {
+                    "word": "Event",
+                    "meaning": "Event adalah kejadian seperti klik atau ketikan yang dapat dideteksi program."
+                },
+                {
+                    "word": "Event Listener",
+                    "meaning": "Event Listener menunggu event lalu menjalankan fungsi tertentu."
+                },
+                {
+                    "word": "addEventListener",
+                    "meaning": "addEventListener memasang fungsi untuk merespons event."
+                },
+                {
+                    "word": "click",
+                    "meaning": "click adalah event ketika pengguna menekan elemen."
+                },
+                {
+                    "word": "submit",
+                    "meaning": "submit adalah event ketika form dikirim."
+                },
+                {
+                    "word": "change",
+                    "meaning": "change adalah event ketika nilai input berubah."
+                },
+                {
+                    "word": "input",
+                    "meaning": "input adalah event yang muncul saat isi input berubah."
+                },
+                {
+                    "word": "keydown",
+                    "meaning": "keydown adalah event ketika tombol keyboard ditekan."
+                },
+                {
+                    "word": "event.target",
+                    "meaning": "event.target menunjuk elemen yang memicu event."
+                },
+                {
+                    "word": "preventDefault",
+                    "meaning": "preventDefault mencegah perilaku bawaan browser."
+                }
+            ]
+        },
+        {
+            "context": "Algoritma dan Pencarian",
+            "description": "Strategi untuk mengolah data dan menemukan jawaban dengan langkah yang teratur.",
+            "words": [
+                {
+                    "word": "Algoritma",
+                    "meaning": "Algoritma adalah langkah teratur untuk menyelesaikan masalah."
+                },
+                {
+                    "word": "brute force",
+                    "meaning": "brute force mencoba semua kemungkinan sampai menemukan jawaban."
+                },
+                {
+                    "word": "binary search",
+                    "meaning": "binary search mencari data dengan terus membagi ruang pencarian menjadi dua."
+                },
+                {
+                    "word": "linear search",
+                    "meaning": "linear search memeriksa data satu per satu dari awal."
+                },
+                {
+                    "word": "hash map",
+                    "meaning": "hash map menyimpan pasangan key-value agar pencarian berlangsung cepat."
+                },
+                {
+                    "word": "two pointers",
+                    "meaning": "two pointers memakai dua penunjuk untuk menjelajahi data secara efisien."
+                },
+                {
+                    "word": "recursion",
+                    "meaning": "recursion adalah fungsi yang memanggil dirinya sendiri sampai kondisi berhenti."
+                },
+                {
+                    "word": "iteration",
+                    "meaning": "iteration adalah satu putaran dalam proses perulangan."
+                },
+                {
+                    "word": "time complexity",
+                    "meaning": "time complexity memperkirakan pertumbuhan waktu yang dibutuhkan algoritma."
+                },
+                {
+                    "word": "space complexity",
+                    "meaning": "space complexity memperkirakan banyak memori yang digunakan algoritma."
+                }
+            ]
+        },
+        {
+            "context": "Array dan Method Array",
+            "description": "Peralatan untuk menyimpan daftar nilai lalu mengolah setiap item di dalamnya.",
+            "words": [
+                {
+                    "word": "Array",
+                    "meaning": "Array menyimpan banyak nilai secara berurutan dalam satu variabel."
+                },
+                {
+                    "word": "length",
+                    "meaning": "length menunjukkan jumlah item dalam array."
+                },
+                {
+                    "word": "push",
+                    "meaning": "push menambahkan item ke akhir array."
+                },
+                {
+                    "word": "pop",
+                    "meaning": "pop menghapus dan mengambil item terakhir array."
+                },
+                {
+                    "word": "shift",
+                    "meaning": "shift menghapus dan mengambil item pertama array."
+                },
+                {
+                    "word": "unshift",
+                    "meaning": "unshift menambahkan item ke awal array."
+                },
+                {
+                    "word": "slice",
+                    "meaning": "slice menyalin sebagian array tanpa mengubah array asli."
+                },
+                {
+                    "word": "splice",
+                    "meaning": "splice menambah, menghapus, atau mengganti item array asli."
+                },
+                {
+                    "word": "map",
+                    "meaning": "map membuat array baru setelah mengubah setiap item."
+                },
+                {
+                    "word": "filter",
+                    "meaning": "filter membuat array baru hanya dari item yang memenuhi kondisi."
+                },
+                {
+                    "word": "reduce",
+                    "meaning": "reduce menggabungkan banyak item menjadi satu hasil."
+                },
+                {
+                    "word": "find",
+                    "meaning": "find mengambil item pertama yang memenuhi kondisi."
+                },
+                {
+                    "word": "some",
+                    "meaning": "some memeriksa apakah setidaknya satu item memenuhi kondisi."
+                },
+                {
+                    "word": "every",
+                    "meaning": "every memeriksa apakah semua item memenuhi kondisi."
+                },
+                {
+                    "word": "includes",
+                    "meaning": "includes memeriksa apakah array berisi nilai tertentu."
+                },
+                {
+                    "word": "sort",
+                    "meaning": "sort mengurutkan item array berdasarkan aturan tertentu."
+                },
+                {
+                    "word": "reverse",
+                    "meaning": "reverse membalik urutan item dalam array."
+                },
+                {
+                    "word": "forEach",
+                    "meaning": "forEach menjalankan fungsi satu kali untuk setiap item array."
+                }
+            ]
+        },
+        {
+            "context": "Function",
+            "description": "Istilah untuk membuat blok kode yang menerima input dan menghasilkan pekerjaan atau nilai.",
+            "words": [
+                {
+                    "word": "Function",
+                    "meaning": "Function adalah blok kode yang dapat dipanggil berulang kali."
+                },
+                {
+                    "word": "Parameter",
+                    "meaning": "Parameter adalah nama tempat untuk menerima nilai dalam function."
+                },
+                {
+                    "word": "Argument",
+                    "meaning": "Argument adalah nilai nyata yang dikirim saat memanggil function."
+                },
+                {
+                    "word": "return",
+                    "meaning": "return mengirimkan hasil dari function kepada pemanggilnya."
+                },
+                {
+                    "word": "function declaration",
+                    "meaning": "function declaration membuat function dengan kata kunci function."
+                },
+                {
+                    "word": "function expression",
+                    "meaning": "function expression menyimpan function di dalam sebuah variabel."
+                },
+                {
+                    "word": "arrow function",
+                    "meaning": "arrow function adalah bentuk singkat untuk menulis function."
+                },
+                {
+                    "word": "callback",
+                    "meaning": "callback adalah function yang dikirim untuk dijalankan kemudian."
+                },
+                {
+                    "word": "closure",
+                    "meaning": "closure membuat function tetap mengingat variabel dari scope asalnya."
+                },
+                {
+                    "word": "default parameter",
+                    "meaning": "default parameter memberi nilai cadangan jika argument tidak dikirim."
+                },
+                {
+                    "word": "rest parameter",
+                    "meaning": "rest parameter mengumpulkan banyak argument menjadi sebuah array."
+                },
+                {
+                    "word": "Math.floor",
+                    "meaning": "Math.floor membulatkan angka ke bawah."
+                },
+                {
+                    "word": "Math.ceil",
+                    "meaning": "Math.ceil membulatkan angka ke atas."
+                },
+                {
+                    "word": "parseInt",
+                    "meaning": "parseInt mengubah teks menjadi bilangan bulat."
+                },
+                {
+                    "word": "parseFloat",
+                    "meaning": "parseFloat mengubah teks menjadi angka desimal."
+                },
+                {
+                    "word": "isNaN",
+                    "meaning": "isNaN memeriksa apakah sebuah nilai bukan angka yang valid."
+                }
+            ]
+        },
+        {
+            "context": "Method String",
+            "description": "Method yang membantu membersihkan, mencari, atau mengubah teks.",
+            "words": [
+                {
+                    "word": "String",
+                    "meaning": "String adalah tipe data untuk menyimpan teks."
+                },
+                {
+                    "word": "toUpperCase",
+                    "meaning": "toUpperCase mengubah semua huruf teks menjadi huruf besar."
+                },
+                {
+                    "word": "toLowerCase",
+                    "meaning": "toLowerCase mengubah semua huruf teks menjadi huruf kecil."
+                },
+                {
+                    "word": "trim",
+                    "meaning": "trim menghapus spasi di awal dan akhir string."
+                },
+                {
+                    "word": "includes",
+                    "meaning": "includes memeriksa apakah string mengandung teks tertentu."
+                },
+                {
+                    "word": "startsWith",
+                    "meaning": "startsWith memeriksa apakah string diawali teks tertentu."
+                },
+                {
+                    "word": "endsWith",
+                    "meaning": "endsWith memeriksa apakah string diakhiri teks tertentu."
+                },
+                {
+                    "word": "indexOf",
+                    "meaning": "indexOf mencari posisi kemunculan teks di dalam string."
+                },
+                {
+                    "word": "replace",
+                    "meaning": "replace mengganti kemunculan teks pertama dalam string."
+                },
+                {
+                    "word": "replaceAll",
+                    "meaning": "replaceAll mengganti semua kemunculan teks dalam string."
+                },
+                {
+                    "word": "split",
+                    "meaning": "split memecah string menjadi array berdasarkan pemisah."
+                },
+                {
+                    "word": "substring",
+                    "meaning": "substring mengambil bagian string berdasarkan posisi awal dan akhir."
+                },
+                {
+                    "word": "slice",
+                    "meaning": "slice menyalin sebagian string tanpa mengubah string asli."
+                },
+                {
+                    "word": "charAt",
+                    "meaning": "charAt mengambil karakter pada posisi tertentu."
+                },
+                {
+                    "word": "concat",
+                    "meaning": "concat menggabungkan string dengan string lain."
+                }
+            ]
+        },
+        {
+            "context": "Object dan Property",
+            "description": "Istilah untuk menyimpan data berlabel dan mengambil atau mengubah isinya.",
+            "words": [
+                {
+                    "word": "Object",
+                    "meaning": "Object menyimpan data dalam pasangan key dan value."
+                },
+                {
+                    "word": "Property",
+                    "meaning": "Property adalah data atau ciri yang dimiliki Object."
+                },
+                {
+                    "word": "key",
+                    "meaning": "key adalah nama penanda untuk mengambil value pada Object."
+                },
+                {
+                    "word": "value",
+                    "meaning": "value adalah isi yang disimpan di balik sebuah key."
+                },
+                {
+                    "word": "Object.keys",
+                    "meaning": "Object.keys mengambil semua key dari Object sebagai array."
+                },
+                {
+                    "word": "Object.values",
+                    "meaning": "Object.values mengambil semua value dari Object sebagai array."
+                },
+                {
+                    "word": "Object.entries",
+                    "meaning": "Object.entries mengubah pasangan key-value menjadi array pasangan."
+                },
+                {
+                    "word": "Object.assign",
+                    "meaning": "Object.assign menyalin property dari beberapa Object."
+                },
+                {
+                    "word": "destructuring",
+                    "meaning": "destructuring mengambil isi Object atau Array ke variabel terpisah."
+                },
+                {
+                    "word": "Spread Operator",
+                    "meaning": "Spread Operator (...) membentangkan isi Object atau Array."
+                },
+                {
+                    "word": "this",
+                    "meaning": "this merujuk pada Object atau konteks yang sedang digunakan."
+                },
+                {
+                    "word": "Reference",
+                    "meaning": "Reference menunjuk ke lokasi data, bukan salinan datanya."
+                }
+            ]
+        },
+        {
+            "context": "Constructor dan Struktur Data",
+            "description": "Cara membuat objek serta wadah khusus untuk menyimpan data.",
+            "words": [
+                {
+                    "word": "Class",
+                    "meaning": "Class adalah cetak biru untuk membuat Object."
+                },
+                {
+                    "word": "Constructor",
+                    "meaning": "Constructor menyiapkan nilai awal saat Object dibuat."
+                },
+                {
+                    "word": "Constructor Function",
+                    "meaning": "Constructor Function membuat Object dengan pola function dan new."
+                },
+                {
+                    "word": "new",
+                    "meaning": "new membuat Instance baru dari Class atau Constructor Function."
+                },
+                {
+                    "word": "Instance",
+                    "meaning": "Instance adalah Object nyata yang dibuat dari Class."
+                },
+                {
+                    "word": "Prototype",
+                    "meaning": "Prototype menjadi sumber property dan method yang diwarisi Object."
+                },
+                {
+                    "word": "Inheritance",
+                    "meaning": "Inheritance memungkinkan Class mewarisi kemampuan Class lain."
+                },
+                {
+                    "word": "Map",
+                    "meaning": "Map menyimpan data sebagai pasangan key-value dengan key yang fleksibel."
+                },
+                {
+                    "word": "Map()",
+                    "meaning": "Map() adalah Constructor untuk membuat Object Map baru."
+                },
+                {
+                    "word": "Set",
+                    "meaning": "Set menyimpan kumpulan nilai unik tanpa duplikat."
+                },
+                {
+                    "word": "Set()",
+                    "meaning": "Set() adalah Constructor untuk membuat Object Set baru."
+                },
+                {
+                    "word": "WeakMap",
+                    "meaning": "WeakMap menyimpan pasangan key-value dengan key berupa Object."
+                },
+                {
+                    "word": "WeakSet",
+                    "meaning": "WeakSet menyimpan kumpulan Object unik secara lemah."
+                }
+            ]
+        },
+        {
+            "context": "Conditional dan Loop",
+            "description": "Kontrol alur yang menentukan pilihan dan pengulangan langkah program.",
+            "words": [
+                {
+                    "word": "Conditional",
+                    "meaning": "Conditional memilih aksi berdasarkan kondisi tertentu."
+                },
+                {
+                    "word": "If Statement",
+                    "meaning": "If Statement menjalankan kode jika kondisi bernilai true."
+                },
+                {
+                    "word": "else",
+                    "meaning": "else menjalankan kode ketika kondisi if bernilai false."
+                },
+                {
+                    "word": "else if",
+                    "meaning": "else if memeriksa kondisi tambahan setelah if gagal."
+                },
+                {
+                    "word": "switch",
+                    "meaning": "switch memilih aksi berdasarkan beberapa kemungkinan nilai."
+                },
+                {
+                    "word": "ternary operator",
+                    "meaning": "ternary operator menulis pilihan if-else dalam satu baris."
+                },
+                {
+                    "word": "Loop",
+                    "meaning": "Loop mengulang blok kode selama aturan tertentu terpenuhi."
+                },
+                {
+                    "word": "For Loop",
+                    "meaning": "For Loop mengulang kode dengan penghitung dan kondisi."
+                },
+                {
+                    "word": "While Loop",
+                    "meaning": "While Loop mengulang kode selama kondisi bernilai true."
+                },
+                {
+                    "word": "do...while",
+                    "meaning": "do...while menjalankan kode minimal sekali sebelum memeriksa kondisi."
+                },
+                {
+                    "word": "break",
+                    "meaning": "break menghentikan Loop atau switch lebih awal."
+                },
+                {
+                    "word": "continue",
+                    "meaning": "continue melewati putaran saat ini dan lanjut ke putaran berikutnya."
+                }
+            ]
+        },
+        {
+            "context": "Data Type dan Nilai",
+            "description": "Jenis-jenis nilai dasar yang dapat disimpan dan diproses oleh JavaScript.",
+            "words": [
+                {
+                    "word": "Data Type",
+                    "meaning": "Data Type menjelaskan jenis nilai yang sedang diproses."
+                },
+                {
+                    "word": "String",
+                    "meaning": "String menyimpan nilai berupa teks."
+                },
+                {
+                    "word": "Number",
+                    "meaning": "Number menyimpan nilai angka bulat maupun desimal."
+                },
+                {
+                    "word": "BigInt",
+                    "meaning": "BigInt menyimpan bilangan bulat yang sangat besar."
+                },
+                {
+                    "word": "Boolean",
+                    "meaning": "Boolean hanya memiliki nilai true atau false."
+                },
+                {
+                    "word": "Object",
+                    "meaning": "Object menyimpan data dalam property yang memiliki key."
+                },
+                {
+                    "word": "Undefined",
+                    "meaning": "Undefined berarti variabel belum memiliki nilai."
+                },
+                {
+                    "word": "Null",
+                    "meaning": "Null berarti tidak ada Object atau nilai dengan sengaja."
+                },
+                {
+                    "word": "Symbol",
+                    "meaning": "Symbol membuat nilai unik yang sering dipakai sebagai key Object."
+                },
+                {
+                    "word": "NaN",
+                    "meaning": "NaN berarti hasil operasi tidak dapat dianggap sebagai angka."
+                },
+                {
+                    "word": "typeof",
+                    "meaning": "typeof memeriksa Data Type sebuah nilai."
+                },
+                {
+                    "word": "truthy",
+                    "meaning": "truthy adalah nilai yang dianggap true dalam kondisi."
+                },
+                {
+                    "word": "falsy",
+                    "meaning": "falsy adalah nilai yang dianggap false dalam kondisi."
+                }
+            ]
+        },
+        {
+            "context": "Asynchronous dan Request",
+            "description": "Istilah untuk pekerjaan yang hasilnya datang kemudian, terutama saat berkomunikasi dengan server.",
+            "words": [
+                {
+                    "word": "Asynchronous",
+                    "meaning": "Asynchronous memungkinkan program melanjutkan pekerjaan sambil menunggu."
+                },
+                {
+                    "word": "Promise",
+                    "meaning": "Promise mewakili hasil pekerjaan yang belum selesai."
+                },
+                {
+                    "word": "async/await",
+                    "meaning": "async/await membuat kode Promise lebih mudah dibaca."
+                },
+                {
+                    "word": "Callback",
+                    "meaning": "Callback adalah function yang dijalankan setelah pekerjaan selesai."
+                },
+                {
+                    "word": "then",
+                    "meaning": "then menjalankan function ketika Promise berhasil."
+                },
+                {
+                    "word": "catch",
+                    "meaning": "catch menangani error ketika Promise gagal."
+                },
+                {
+                    "word": "finally",
+                    "meaning": "finally menjalankan kode setelah Promise berhasil atau gagal."
+                },
+                {
+                    "word": "Promise.all",
+                    "meaning": "Promise.all menunggu beberapa Promise selesai bersama-sama."
+                },
+                {
+                    "word": "Fetch",
+                    "meaning": "Fetch meminta data dari server menggunakan JavaScript."
+                },
+                {
+                    "word": "HTTP",
+                    "meaning": "HTTP adalah aturan pertukaran data antara client dan server."
+                },
+                {
+                    "word": "XMLHttpRequest",
+                    "meaning": "XMLHttpRequest meminta data server tanpa memuat ulang halaman."
+                },
+                {
+                    "word": "API",
+                    "meaning": "API adalah jembatan komunikasi antara dua program."
+                },
+                {
+                    "word": "JSON",
+                    "meaning": "JSON adalah format teks untuk bertukar data terstruktur."
+                },
+                {
+                    "word": "request",
+                    "meaning": "request adalah permintaan yang dikirim client ke server."
+                },
+                {
+                    "word": "response",
+                    "meaning": "response adalah balasan server terhadap request."
+                }
+            ]
+        },
+        {
+            "context": "Error dan Debugging",
+            "description": "Peralatan untuk mengenali masalah dan melacak bagian kode yang bermasalah.",
+            "words": [
+                {
+                    "word": "Bug",
+                    "meaning": "Bug adalah kesalahan yang membuat program berperilaku tidak sesuai."
+                },
+                {
+                    "word": "Error",
+                    "meaning": "Error menunjukkan program mengalami masalah."
+                },
+                {
+                    "word": "Exception",
+                    "meaning": "Exception adalah masalah saat program sedang berjalan."
+                },
+                {
+                    "word": "Debugging",
+                    "meaning": "Debugging adalah proses mencari dan memperbaiki Bug."
+                },
+                {
+                    "word": "Console",
+                    "meaning": "Console menampilkan pesan dan hasil selama pengembangan."
+                },
+                {
+                    "word": "console.log",
+                    "meaning": "console.log menampilkan nilai atau pesan ke Console."
+                },
+                {
+                    "word": "console.error",
+                    "meaning": "console.error menampilkan pesan Error ke Console."
+                },
+                {
+                    "word": "Try...Catch",
+                    "meaning": "Try...Catch mencoba kode lalu menangani Exception."
+                },
+                {
+                    "word": "throw",
+                    "meaning": "throw sengaja membuat dan mengirimkan Exception."
+                },
+                {
+                    "word": "stack trace",
+                    "meaning": "stack trace menunjukkan jejak pemanggilan function saat Error terjadi."
+                },
+                {
+                    "word": "breakpoint",
+                    "meaning": "breakpoint menghentikan sementara program untuk memeriksa nilai."
+                },
+                {
+                    "word": "Syntax",
+                    "meaning": "Syntax adalah aturan penulisan kode yang harus dipatuhi."
+                }
+            ]
+        },
+        {
+            "context": "Module dan Project",
+            "description": "Istilah untuk membagi kode, memakai library, dan mengelola versi proyek.",
+            "words": [
+                {
+                    "word": "Module",
+                    "meaning": "Module adalah file berisi kode yang dapat digunakan ulang."
+                },
+                {
+                    "word": "Import",
+                    "meaning": "Import mengambil kode dari Module lain."
+                },
+                {
+                    "word": "Export",
+                    "meaning": "Export membagikan kode agar dapat dipakai Module lain."
+                },
+                {
+                    "word": "default export",
+                    "meaning": "default export membagikan satu nilai utama dari Module."
+                },
+                {
+                    "word": "named export",
+                    "meaning": "named export membagikan beberapa nilai dengan nama masing-masing."
+                },
+                {
+                    "word": "Library",
+                    "meaning": "Library adalah kumpulan kode siap pakai."
+                },
+                {
+                    "word": "npm",
+                    "meaning": "npm mengelola package dan dependency JavaScript."
+                },
+                {
+                    "word": "package",
+                    "meaning": "package adalah kumpulan kode yang dapat dipasang ke project."
+                },
+                {
+                    "word": "Git",
+                    "meaning": "Git mencatat riwayat perubahan kode."
+                },
+                {
+                    "word": "GitHub",
+                    "meaning": "GitHub menyimpan project Git secara online."
+                },
+                {
+                    "word": "Refactoring",
+                    "meaning": "Refactoring merapikan kode tanpa mengubah hasil program."
+                }
+            ]
+        },
+        {
+            "context": "HTML, CSS, dan Browser",
+            "description": "Istilah dasar untuk membangun halaman, mengatur tampilannya, dan bekerja di browser.",
+            "words": [
+                {
+                    "word": "HTML",
+                    "meaning": "HTML menyusun struktur isi halaman web."
+                },
+                {
+                    "word": "Element",
+                    "meaning": "Element adalah bagian penyusun halaman HTML."
+                },
+                {
+                    "word": "Attribute",
+                    "meaning": "Attribute memberi informasi tambahan pada Element HTML."
+                },
+                {
+                    "word": "CSS",
+                    "meaning": "CSS mengatur tampilan dan tata letak halaman."
+                },
+                {
+                    "word": "class",
+                    "meaning": "class memberi nama kelompok pada Element HTML."
+                },
+                {
+                    "word": "id",
+                    "meaning": "id memberi identitas unik pada sebuah Element."
+                },
+                {
+                    "word": "selector",
+                    "meaning": "selector memilih Element yang akan diberi aturan CSS."
+                },
+                {
+                    "word": "Browser",
+                    "meaning": "Browser membaca HTML, CSS, dan JavaScript untuk menampilkan web."
+                },
+                {
+                    "word": "Cookie",
+                    "meaning": "Cookie menyimpan data kecil di Browser."
+                },
+                {
+                    "word": "localStorage",
+                    "meaning": "localStorage menyimpan data di Browser tanpa waktu kedaluwarsa otomatis."
+                },
+                {
+                    "word": "sessionStorage",
+                    "meaning": "sessionStorage menyimpan data selama tab Browser masih terbuka."
+                },
+                {
+                    "word": "viewport",
+                    "meaning": "viewport adalah area halaman yang sedang terlihat di layar."
+                }
+            ]
+        },
+        {
+            "context": "Variabel dan Lingkup",
+            "description": "Istilah tentang tempat penyimpanan nilai dan area kode yang dapat mengaksesnya.",
+            "words": [
+                {
+                    "word": "Variable",
+                    "meaning": "Variable adalah nama tempat untuk menyimpan nilai."
+                },
+                {
+                    "word": "let",
+                    "meaning": "let membuat Variable yang nilainya dapat diganti."
+                },
+                {
+                    "word": "Const",
+                    "meaning": "Const membuat Variable yang tidak dapat diberi nilai baru."
+                },
+                {
+                    "word": "var",
+                    "meaning": "var adalah cara lama untuk membuat Variable di JavaScript."
+                },
+                {
+                    "word": "Scope",
+                    "meaning": "Scope menentukan bagian kode yang dapat mengakses Variable."
+                },
+                {
+                    "word": "global scope",
+                    "meaning": "global scope dapat diakses dari banyak bagian program."
+                },
+                {
+                    "word": "function scope",
+                    "meaning": "function scope membatasi Variable di dalam sebuah function."
+                },
+                {
+                    "word": "block scope",
+                    "meaning": "block scope membatasi Variable di dalam blok kurung kurawal."
+                },
+                {
+                    "word": "Hoisting",
+                    "meaning": "Hoisting adalah perilaku JavaScript dalam memproses deklarasi lebih awal."
+                },
+                {
+                    "word": "Mutation",
+                    "meaning": "Mutation mengubah isi Object atau Array yang sudah ada."
+                },
+                {
+                    "word": "Encapsulation",
+                    "meaning": "Encapsulation membungkus data dan function agar lebih terlindungi."
+                }
+            ]
+        }
+    ]
+}
